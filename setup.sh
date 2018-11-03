@@ -7,7 +7,7 @@ yum install -y epel-release deltarpm
 yum install -y yum-utils net-tools wget htop atop top screen rsync nfs-utils
 yum install -y centos-release-gluster41 
 yum remove -y firewalld 
-yum install -y mono-core mono-devel mono-locale-extras curl mediainfo
+yum install -y wget mediainfo libzen libmediainfo curl gettext mono-core mono-devel sqlite.x86_64 
 yum install -y glusterfs-server mono-devel
 yum install -y install https://www.rpmfind.net/linux/rpmfusion/nonfree/el/updates/7/x86_64/u/unrar-5.4.5-1.el7.x86_64.rpm   # Install unrar
 yum install -y wget mediainfo libzen libmediainfo curl gettext mono-core mono-devel sqlite.x86_64 

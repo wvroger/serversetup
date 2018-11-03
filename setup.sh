@@ -13,7 +13,6 @@ yum install -y install https://www.rpmfind.net/linux/rpmfusion/nonfree/el/update
 yum install -y wget mediainfo libzen libmediainfo curl gettext mono-core mono-devel sqlite.x86_64 
 yum install -y wget git par2cmdline p7zip unzip tar gcc python-feedparser python-configobj python-cheetah python-dbus python-devel libxslt-devel
 yum-config-manager --enable remi-php72-php
-yum install -y php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo 
 yum install -y httpd boost-regex boost-devel swig gcc-c++ nmap-ncat certbot subversion tmux mediainfo  
 yum install -y memcached p7zip php72-php-mbstring php72-php-mcrypt php72-php-pecl-imagick php72-php-devel 
 yum install -y php72-php-fpm-nginx.noarch php72-php-opcache.x86_64 php72-php-pear.noarch php72-php-pdo.x86_64 php72-php-gd.x86_64 
@@ -34,4 +33,5 @@ rpm -ivh http://download.neorouter.com/Downloads/NRMesh/Update_2.4.5.4510/Linux/
 #
 #
 #
-yum -y update && reboot
+yum -y update 
+#sudo reboot
